@@ -1,0 +1,36 @@
+/* components/MainContent.module.css */
+
+.mainContent {
+    /* Styles for the main content container */
+}
+
+.mainContent .mainTitle {
+    font-size: 24px; /* Adjust font size for the main title */
+}
+
+.mainContent p {
+    font-size: 16px; /* Adjust font size for paragraphs */
+}
+
+.mainContent .customHeading {
+    font-size: 20px; /* Decrease font size for smaller screens */
+}
+
+.main {
+    padding: 20px;
+}
+
+.menuButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topRight {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

@@ -1,0 +1,40 @@
+/* components/Header.module.css */
+.header {
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .topBar {
+    background-color: #ffe0b2;
+    text-align: center;
+    padding: 5px 0;
+    display: none; /* Hide top bar on mobile */
+  }
+  
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menuIcon {
+    font-size: 24px;
+    cursor: pointer;
+    display: block; /* Show menu icon on mobile */
+  }
+  
+  @media (min-width: 768px) {
+    .topBar {
+      display: block; /* Show top bar on larger screens */
+    }
+  
+    .menuIcon {
+      display: none; /* Hide menu icon on larger screens */
+    }
+  }

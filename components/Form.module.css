@@ -1,0 +1,35 @@
+/* components/Form.module.css */
+.customForm {
+    width: 313px;
+    height: 513px;
+    position: absolute;
+    top: -3384px;
+    left: 2447px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px solid transparent; /* Adjust border color if needed */
+    opacity: 0;
+  }
+  
+  /* Other existing styles for your form container */
+  .formContainer {
+    background: linear-gradient(135deg, #FFFFFF 0%, #FFD3B4 100%);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 400px;
+  }
+  
+  .formContainer .formTitle {
+    margin-bottom: 10px;
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+  
+  .formContainer p {
+    margin-bottom: 15px;
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+  
+  /* Add more styles as needed */
